@@ -5,7 +5,7 @@ all: build
 
 BIBBLE = bibble
 
-_includes/pubs.html: bib/pubs.bib bib/publications.tmpl
+_includes/pubs.html: bib/bib.bib bib/publications.tmpl
 	mkdir -p _includes
 	$(BIBBLE) $+ > $@
 
@@ -29,3 +29,4 @@ RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e s
 
 deploy: clean build
 	$(RSYNC) _site/ $(DEPLOY_HOST):$(DEPLOY_PATH)
+
