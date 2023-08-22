@@ -2,34 +2,34 @@
 desmond:
     display_name: "Desmond Elliott"
     webpage: "https://elliottd.github.io/"
-    image: /img/people/scott.png
+    image: https://elliottd.github.io/photo.jpg
     role: faculty
-    bio: Tenure-track Assistant Professor
+    bio: Assistant Professor
 
 emanuele:
     display_name: "Emanuele Bugliarello"
     webpage: "https://e-bug.github.io/"
     role: grad
-    image: /img/people/scott.png
-    bio: Final-year Ph.D Fellow
+    image: https://e-bug.github.io/assets/img/prof_pic.jpg
+    bio: Ph.D Fellow
 
 rita:
     display_name: "Rita Ramos"
     role: grad
-    image: /img/people/scott.png
+    image: 
     bio: Ph.D Fellow (co-advised with Bruno Martins)
 
 wenyan:
     display_name: "Wenyan Li"
     webpage: "https://wenyanli.org/"
     role: grad
-    image: /img/people/scott.png
-    bio: Ph.D Fellow (co-advised with Anders Soegaard)
+    image: https://wenyanli.org/authors/admin/avatar_hu84b2a8e4064ccbf3febb8d9666a5885c_139960_270x270_fill_q75_lanczos_center.jpg
+    bio: Ph.D Fellow (co-advised with Anders Søgaard)
 
 jonas:
     display_name: "Jonas F. Lotz"
     role: grad
-    image: /img/people/scott.png
+    image: https://www2.adm.ku.dk/selv/pls/prt_www40.hentindhold_cms?p_personid=497188
     bio: Ph.D Fellow (co-advised with Christian Igel)
 
 emiel:
