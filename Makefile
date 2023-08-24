@@ -5,15 +5,27 @@ all: build
 
 BIBBLE = bibble
 
+_includes/mm.html: bib/mm.bib bib/publications.tmpl
+	mkdir -p _includes
+	$(BIBBLE) $+ > $@
+
+_includes/pixel.html: bib/pixel.bib bib/publications.tmpl
+	mkdir -p _includes
+	$(BIBBLE) $+ > $@
+
+_includes/mrag.html: bib/mrag.bib bib/publications.tmpl
+	mkdir -p _includes
+	$(BIBBLE) $+ > $@
+
 _includes/pubs.html: bib/bib.bib bib/publications.tmpl
 	mkdir -p _includes
 	$(BIBBLE) $+ > $@
 
 _includes/recent.html: bib/bib.bib bib/recent.tmpl
-	mkdir -p -v _includes
-	$(BIBBLE) -v $+ > $@
+	mkdir -p _includes
+	$(BIBBLE) $+ > $@
 
-build: _includes/recent.html _includes/pubs.html
+build: _includes/recent.html _includes/pubs.html _includes/mrag.html _includes/mm.html _includes/pixel.html
 	jekyll build
 
 # you can configure these at the shell, e.g.:
@@ -21,11 +33,12 @@ build: _includes/recent.html _includes/pubs.html
 SERVE_HOST ?= 127.0.0.1
 SERVE_PORT ?= 5000
 
-serve: _includes/pubs.html _includes/recent.html
+serve: build
+#_includes/pubs.html _includes/recent.html _includes/mrag.html  _includes/mm.html _includes/pixel.html
 	jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST)
 
 clean:
-	$(RM) -r _site _includes/pubs.html
+	$(RM) -r _site _includes/pubs.html _includes/recent.html _includes/mrag.html  _includes/mm.html _includes/pixel.html
 
 DEPLOY_HOST ?= yourwebpage.com
 DEPLOY_PATH ?= www/

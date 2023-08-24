@@ -2,7 +2,7 @@
 desmond:
     display_name: "Desmond Elliott"
     webpage: "https://elliottd.github.io/"
-    image: https://elliottd.github.io/photo.jpg
+    image: http://coastalcph.github.io/pict/desmond.jpg
     role: faculty
     bio: Assistant Professor
 
@@ -16,21 +16,24 @@ emanuele:
 rita:
     display_name: "Rita Ramos"
     role: grad
-    image: 
-    bio: Ph.D Fellow (co-advised with Bruno Martins)
+    image: "http://coastalcph.github.io/pict/Rita.jpg" 
+    bio: Ph.D Fellow
+    bio_note: (co-advised with Bruno Martins)
 
 wenyan:
     display_name: "Wenyan Li"
     webpage: "https://wenyanli.org/"
     role: grad
-    image: https://wenyanli.org/authors/admin/avatar_hu84b2a8e4064ccbf3febb8d9666a5885c_139960_270x270_fill_q75_lanczos_center.jpg
-    bio: Ph.D Fellow (co-advised with Anders Søgaard)
+    image: http://coastalcph.github.io/pict/wenyan.jpeg
+    bio: Ph.D Fellow
+    bio_note: (co-advised with Anders Søgaard)
 
 jonas:
     display_name: "Jonas F. Lotz"
     role: grad
-    image: https://www2.adm.ku.dk/selv/pls/prt_www40.hentindhold_cms?p_personid=497188
-    bio: Ph.D Fellow (co-advised with Christian Igel)
+    image: http://coastalcph.github.io/pict/jonas.jpeg
+    bio: Ph.D Fellow 
+    bio_note: (co-advised with Christian Igel)
 
 emiel:
     display_name: "Emiel van Miltenburg"
@@ -53,3 +56,21 @@ mitja:
     display_name: "Mitja Nikolaus"
     role: alum
     bio: "Now Ph.D Fellow at Aix-Marseille University"
+
+stella:
+    display_name: "Stella Frank"
+    role: collab
+    bio: "University of Copenhagen"
+    webpage: "https://scfrank.github.io/"
+
+bruno:
+    display_name: "Bruno Martins"
+    role: collab
+    bio: "Instituto Superior Técnico"
+    webpage: "https://bgmartins.github.io/"
+
+coastal:
+    display_name: "CoAStaL"
+    role: collab
+    bio: "University of Copenhagen"
+    webpage: "https://coastalcph.github.io/"

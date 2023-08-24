@@ -15,18 +15,18 @@ role-tables:
     width: 5
     image: false
   - roles: [alum]
-    width: 5
+    width: 7
     image: false
 
 ---
 
 <div class="jumbotron">
     <p>
-	We are the <b>Language and Multimodal Processing Group</b> at the
-Department of Computer Science at the <b>University of Copenhagen</b>. The main
-focus of our research is multimodal and multilingual natural language
-processing. We have recently worked on multilingual and multimodal representation learning, resource creation,
-and language modelling.
+	We are the <b>Language and Multimodal Processing Group</b> at the <a
+href="https://di.ku.dk/english">Department of Computer Science</a> at the <a
+href="https://www.ku.dk">University of Copenhagen</a>.  Our recent work
+includes representation learning for multilingual and multimodal data, resource
+creation, and language modelling.
     </p>
 </div>
 
@@ -46,9 +46,8 @@ and language modelling.
     {% endif %}
 </section>
 
-<!--
 <section>
-    <h2>Research</h2>
+    <h2>Research Areas</h2>
     <div class="card-columns">
         {% comment %}
         Sort the projects by date, putting those without dates last
@@ -62,10 +61,13 @@ and language modelling.
         {% endfor %}
     </div>
 </section>
--->
+
+<div id="publications">
+    <h2>Recent Publications</h2>
+    {% include recent.html %}
+</div>
 
 <div id="people">
-    <h2>People</h2>
     {% for role-table in page.role-tables %}
         <section class="people row justify-content-between">
             {% for role-column in role-table %}
