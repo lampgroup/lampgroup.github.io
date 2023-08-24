@@ -12,6 +12,7 @@ emanuele:
     role: grad
     image: https://e-bug.github.io/assets/img/prof_pic.jpg
     bio: Ph.D Fellow
+    bio_note: (co-advised with Anders Søgaard)
 
 rita:
     display_name: "Rita Ramos"
