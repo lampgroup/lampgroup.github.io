@@ -1,5 +1,5 @@
 name: LAMP
-url: http://lampgroup.github.io/
+url: https://lampgroup.github.io/
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 

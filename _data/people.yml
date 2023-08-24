@@ -2,7 +2,7 @@
 desmond:
     display_name: "Desmond Elliott"
     webpage: "https://elliottd.github.io/"
-    image: http://coastalcph.github.io/pict/desmond.jpg
+    image: https://coastalcph.github.io/pict/desmond.jpg
     role: faculty
     bio: Assistant Professor
 
@@ -16,7 +16,7 @@ emanuele:
 rita:
     display_name: "Rita Ramos"
     role: grad
-    image: "http://coastalcph.github.io/pict/Rita.jpg" 
+    image: "https://coastalcph.github.io/pict/Rita.jpg" 
     bio: Ph.D Fellow
     bio_note: (co-advised with Bruno Martins)
 
@@ -24,14 +24,14 @@ wenyan:
     display_name: "Wenyan Li"
     webpage: "https://wenyanli.org/"
     role: grad
-    image: http://coastalcph.github.io/pict/wenyan.jpeg
+    image: https://coastalcph.github.io/pict/wenyan.jpeg
     bio: Ph.D Fellow
     bio_note: (co-advised with Anders Søgaard)
 
 jonas:
     display_name: "Jonas F. Lotz"
     role: grad
-    image: http://coastalcph.github.io/pict/jonas.jpeg
+    image: https://coastalcph.github.io/pict/jonas.jpeg
     bio: Ph.D Fellow 
     bio_note: (co-advised with Christian Igel)
 
@@ -44,7 +44,7 @@ emiel:
 dai:
     display_name: "Xiang Dai"
     role: alum
-    webpage: "https://http://iang.io/"
+    webpage: "https://iang.io/"
     bio: "Postdoc. Now Research Scientist at CSIRO Data61"
 
 elham:
