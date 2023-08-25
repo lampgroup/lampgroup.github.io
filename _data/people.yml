@@ -2,7 +2,7 @@
 desmond:
     display_name: "Desmond Elliott"
     webpage: "https://elliottd.github.io/"
-    image: https://coastalcph.github.io/pict/desmond.jpg
+    image: /img/people/desmond.jpeg
     role: faculty
     bio: Assistant Professor
 
@@ -10,14 +10,14 @@ emanuele:
     display_name: "Emanuele Bugliarello"
     webpage: "https://e-bug.github.io/"
     role: grad
-    image: https://e-bug.github.io/assets/img/prof_pic.jpg
+    image: /img/people/emanuele.jpeg
     bio: Ph.D Fellow
     bio_note: (co-advised with Anders Søgaard)
 
 rita:
     display_name: "Rita Ramos"
     role: grad
-    image: "https://coastalcph.github.io/pict/Rita.jpg" 
+    image: /img/people/rita.jpeg
     bio: Ph.D Fellow
     bio_note: (co-advised with Bruno Martins)
 
@@ -25,14 +25,14 @@ wenyan:
     display_name: "Wenyan Li"
     webpage: "https://wenyanli.org/"
     role: grad
-    image: https://coastalcph.github.io/pict/wenyan.jpeg
+    image: /img/people/wenyan.jpeg
     bio: Ph.D Fellow
     bio_note: (co-advised with Anders Søgaard)
 
 jonas:
     display_name: "Jonas F. Lotz"
     role: grad
-    image: https://coastalcph.github.io/pict/jonas.jpeg
+    image: /img/people/jonas.jpeg
     bio: Ph.D Fellow 
     bio_note: (co-advised with Christian Igel)
 
