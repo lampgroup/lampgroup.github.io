@@ -7,6 +7,7 @@ description: |
 people:
   - desmond
   - emanuele
+  - rita
 
 layout: project
 last-updated: 2023-08-22
