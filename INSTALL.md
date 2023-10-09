@@ -9,14 +9,16 @@ the jekyll gem, and setup bibble in a new conda envirionment.
 3. Install jekyll: `gem install jekyll`
 4. Append the following to your `~/.zshrc` to point to the Homebrew ruby and the jekyll gems
 
-    export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
-    export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
-    export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
-    export PKG_CONFIG_PATH="/opt/homebrew/opt/ruby/lib/pkgconfig"
-    
-    # gems (for Jekyll)
-    export GEM_HOME=$HOME/gems
-    export PATH=$HOME/gems/bin:$PATH
+```
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/ruby/lib/pkgconfig"
+  
+# gems (for Jekyll)
+export GEM_HOME=$HOME/gems
+export PATH=$HOME/gems/bin:$PATH
+```
 
 5. Create a conda environment for the dependencies: `conda create -n lampgroup python=3.9`
 6. `conda activate lampgroup`
