@@ -9,10 +9,9 @@ desmond:
 emanuele:
     display_name: "Emanuele Bugliarello"
     webpage: "https://e-bug.github.io/"
-    role: grad
+    role: alum
     image: /img/people/emanuele.jpeg
-    bio: Ph.D Fellow
-    bio_note: (co-advised with Anders Søgaard)
+    bio: Ph.D 2023. Now Research Scientist at Google
 
 rita:
     display_name: "Rita Ramos"
@@ -40,7 +39,7 @@ emiel:
     display_name: "Emiel van Miltenburg"
     role: alum
     webpage: "https://www.emielvanmiltenburg.nl/"
-    bio: "Ph.D., 2018. Now at Tilburg University."
+    bio: "PhD 2018. Now at Tilburg University."
 
 dai:
     display_name: "Xiang Dai"
