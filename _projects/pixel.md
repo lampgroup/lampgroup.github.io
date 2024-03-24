@@ -6,7 +6,6 @@ description: |
 
 people:
   - desmond
-  - wenyan
   - jonas
   - emanuele
 
