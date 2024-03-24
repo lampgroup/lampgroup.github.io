@@ -6,6 +6,13 @@ desmond:
     role: faculty
     bio: Assistant Professor
 
+danae:
+    display_name: "Danae Sanchez Villegas"
+    webpage: "https://danaesavi.github.io/"
+    role: postdoc
+    image: /img/people/danae.png
+    bio: Postdoc
+
 emanuele:
     display_name: "Emanuele Bugliarello"
     webpage: "https://e-bug.github.io/"
