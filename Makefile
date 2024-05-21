@@ -35,7 +35,7 @@ SERVE_PORT ?= 5000
 
 serve: build
 #_includes/pubs.html _includes/recent.html _includes/mrag.html  _includes/mm.html _includes/pixel.html
-	jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST)
+	jekyll serve --verbose --port $(SERVE_PORT) --host $(SERVE_HOST)
 
 clean:
 	$(RM) -r _site _includes/pubs.html _includes/recent.html _includes/mrag.html  _includes/mm.html _includes/pixel.html

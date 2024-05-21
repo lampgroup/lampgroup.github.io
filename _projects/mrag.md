@@ -6,6 +6,7 @@ description: Retrieval augmentation of multimodal models for image captioning.
 people:
   - desmond
   - rita
+  - wenyan
 
 layout: project
 last-updated: 2023-08-22
