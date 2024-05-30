@@ -11,7 +11,6 @@ danae:
     webpage: "https://danaesavi.github.io/"
     role: postdoc
     image: /img/people/danae.png
-    bio: Postdoc
 
 emanuele:
     display_name: "Emanuele Bugliarello"
@@ -24,7 +23,6 @@ rita:
     display_name: "Rita Ramos"
     role: grad
     image: /img/people/rita.jpeg
-    bio: Ph.D Fellow
     bio_note: (co-advised with Bruno Martins)
 
 wenyan:
@@ -32,15 +30,23 @@ wenyan:
     webpage: "https://wenyanli.org/"
     role: grad
     image: /img/people/wenyan.jpeg
-    bio: Ph.D Fellow
     bio_note: (co-advised with Anders Søgaard)
 
 jonas:
     display_name: "Jonas F. Lotz"
     role: grad
     image: /img/people/jonas.jpeg
-    bio: Ph.D Fellow 
     bio_note: (co-advised with Christian Igel)
+
+alice:
+    display_name: "Alice Schiavone"
+    role: ra
+
+konstantin:
+    display_name: "Konstantin Dobler"
+    role: grad
+    bio_note: (co-advised with Gerard de Melo)
+    webpage: "https://konstantindobler.me/"
 
 emiel:
     display_name: "Emiel van Miltenburg"

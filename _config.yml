@@ -16,7 +16,9 @@ roles:
   - key: postdoc
     name: Postdocs
   - key: grad
-    name: Graduate Students
+    name: Ph.D Students
+  - key: ra
+    name: Research Assistants
   - key: collab
     name: Collaborators
   - key: alum
