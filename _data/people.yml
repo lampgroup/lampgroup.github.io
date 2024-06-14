@@ -4,7 +4,7 @@ desmond:
     webpage: "https://elliottd.github.io/"
     image: /img/people/desmond.jpeg
     role: faculty
-    bio: Assistant Professor
+    bio: Associate Professor
 
 danae:
     display_name: "Danae Sanchez Villegas"
@@ -47,6 +47,10 @@ konstantin:
     role: grad
     bio_note: (co-advised with Gerard de Melo)
     webpage: "https://konstantindobler.me/"
+
+ingo:
+    display_name: "Ingo Ziegler"
+    role: grad
 
 emiel:
     display_name: "Emiel van Miltenburg"
