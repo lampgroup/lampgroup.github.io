@@ -52,6 +52,10 @@ ingo:
     display_name: "Ingo Ziegler"
     role: grad
 
+isra:
+    display_name: "Israfel Salazar"
+    role: grad
+
 emiel:
     display_name: "Emiel van Miltenburg"
     role: alum
