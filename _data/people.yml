@@ -6,6 +6,12 @@ desmond:
     role: faculty
     bio: Associate Professor
 
+ilker:
+    display_name: "Ilker Kessen"
+    webpage: "https://ilkerkesen.github.io/"
+    role: postdoc
+    image: /img/people/ilker.jpg
+
 danae:
     display_name: "Danae Sanchez Villegas"
     webpage: "https://danaesavi.github.io/"
