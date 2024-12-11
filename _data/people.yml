@@ -62,6 +62,16 @@ isra:
     display_name: "Israfel Salazar"
     role: grad
 
+hannah:
+    display_name: "Hannah Claus"
+    role: grad
+    bio_note: (co-advised with Anna Korhonen)
+
+onur:
+    display_name: "Mehmet Onurcan Kaya"
+    role: grad
+    bio_note: (co-advised with Dimitrios Papadopoulos)
+
 emiel:
     display_name: "Emiel van Miltenburg"
     role: alum

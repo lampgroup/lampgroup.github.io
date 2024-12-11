@@ -39,11 +39,3 @@ serve: build
 
 clean:
 	$(RM) -r _site _includes/pubs.html _includes/recent.html _includes/mrag.html  _includes/mm.html _includes/pixel.html
-
-DEPLOY_HOST ?= yourwebpage.com
-DEPLOY_PATH ?= www/
-RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e ssh
-
-deploy: clean build
-	$(RSYNC) _site/ $(DEPLOY_HOST):$(DEPLOY_PATH)
-
