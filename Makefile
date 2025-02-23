@@ -1,6 +1,9 @@
 # targets that aren't filenames
 .PHONY: all clean deploy build serve
 
+SERVE_HOST ?= 127.0.0.1
+SERVE_PORT ?= 5000
+
 all: build
 
 BIBBLE = bibble
@@ -28,13 +31,10 @@ _includes/recent.html: bib/bib.bib bib/recent.tmpl
 build: _includes/recent.html _includes/pubs.html _includes/mrag.html _includes/mm.html _includes/pixel.html
 	jekyll build
 
-# you can configure these at the shell, e.g.:
-# SERVE_PORT=5001 make serve
-SERVE_HOST ?= 127.0.0.1
-SERVE_PORT ?= 5000
-
 serve: build
-#_includes/pubs.html _includes/recent.html _includes/mrag.html  _includes/mm.html _includes/pixel.html
+	jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST)
+
+debug: build
 	jekyll serve --verbose --port $(SERVE_PORT) --host $(SERVE_HOST)
 
 clean:
