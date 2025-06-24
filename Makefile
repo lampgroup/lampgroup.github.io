@@ -8,7 +8,7 @@ all: build
 
 BIBBLE = bibble
 
-_includes/mm.html: bib/mm.bib bib/publications.tmpl
+_includes/multimodal.html: bib/multimodal.bib bib/publications.tmpl
 	mkdir -p _includes
 	$(BIBBLE) $+ > $@
 
@@ -28,7 +28,7 @@ _includes/recent.html: bib/bib.bib bib/recent.tmpl
 	mkdir -p _includes
 	$(BIBBLE) $+ > $@
 
-build: _includes/recent.html _includes/pubs.html _includes/mrag.html _includes/mm.html _includes/pixel.html
+build: _includes/recent.html _includes/pubs.html _includes/mrag.html _includes/multimodal.html _includes/pixel.html
 	jekyll build
 
 serve: build
