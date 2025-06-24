@@ -6,6 +6,12 @@ desmond:
     role: faculty
     bio: Associate Professor
 
+nadav:
+    display_name: "Nadav Borensetein"
+    webpage: "https://nadav.dk/"
+    role: postdoc
+    image: /img/people/nadav.jpeg
+
 ilker:
     display_name: "Ilker Kessen"
     webpage: "https://ilkerkesen.github.io/"
@@ -23,12 +29,14 @@ emanuele:
     webpage: "https://e-bug.github.io/"
     role: alum
     image: /img/people/emanuele.jpeg
-    bio: Ph.D 2023. Now Research Scientist at Google
+    bio: Ph.D 2023.
+    bio_note: Now Research Scientist at Google
 
 rita:
     display_name: "Rita Ramos"
     role: grad
     image: /img/people/rita.jpeg
+    bio: Ph.D Student
     bio_note: (co-advised with Bruno Martins)
 
 wenyan:
@@ -36,63 +44,89 @@ wenyan:
     webpage: "https://wenyanli.org/"
     role: grad
     image: /img/people/wenyan.jpeg
+    bio: Ph.D Student
     bio_note: (co-advised with Anders Søgaard)
 
 jonas:
     display_name: "Jonas F. Lotz"
     role: grad
     image: /img/people/jonas.jpeg
+    bio: Ph.D Student
     bio_note: (co-advised with Christian Igel)
 
 alice:
     display_name: "Alice Schiavone"
-    role: ra
+    role: alum
+    bio: Research Assistant
+    bio_note: Now at NRU.
 
 konstantin:
     display_name: "Konstantin Dobler"
     role: grad
+    bio: Ph.D Student
     bio_note: (co-advised with Gerard de Melo)
     webpage: "https://konstantindobler.me/"
+    image: /img/people/konstantin.jpeg
 
 ingo:
     display_name: "Ingo Ziegler"
     role: grad
+    bio: Ph.D Student
+    image: /img/people/ingo.jpg
 
 isra:
     display_name: "Israfel Salazar"
     role: grad
+    bio: Ph.D Student
+    image: /img/people/isra.jpg
 
 hannah:
     display_name: "Hannah Claus"
     role: grad
+    bio: Ph.D Student
     bio_note: (co-advised with Anna Korhonen)
+    image: /img/people/hannah.jpg
+    webpage: "https://www.linkedin.com/in/hannah-claus-042382199/"
 
 onur:
     display_name: "Mehmet Onurcan Kaya"
     role: grad
+    bio: Ph.D Student
     bio_note: (co-advised with Dimitrios Papadopoulos)
+    image: /img/people/onur.jpg
+
+monica:
+    display_name: "Monica Riedler"
+    role: grad
+    bio: Ph.D Student
+    bio_note: (co-advised with A. Sophia Koepke)
+    image: /img/people/monica.jpg
 
 emiel:
     display_name: "Emiel van Miltenburg"
     role: alum
     webpage: "https://www.emielvanmiltenburg.nl/"
-    bio: "PhD 2018. Now at Tilburg University."
+    bio: "PhD 2018."
+    bio_note: "Now at Tilburg University."
 
 dai:
     display_name: "Xiang Dai"
     role: alum
     webpage: "https://iang.io/"
-    bio: "Postdoc. Now Research Scientist at CSIRO Data61"
+    bio: "Postdoc"
+    bio_note: "Research Scientist at CSIRO Data61"
 
 elham:
     display_name: "Elham Pezhhan"
     role: alum
-    bio: "Digitaliseringskonsulent at Thisted Kommune"
+    bio: "Visiting Ph.D Student"
+    bio_note: "Data Scientist at Vattenfall"
 
 mitja:
     display_name: "Mitja Nikolaus"
     role: alum
-    bio: "Now Ph.D Fellow at Aix-Marseille University"
+    bio: "Visiting Student"
+    bio_note: "Postdoc at Paul Sabatier University"
 
 stella:
     display_name: "Stella Frank"
