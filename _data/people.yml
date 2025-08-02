@@ -34,10 +34,10 @@ emanuele:
 
 rita:
     display_name: "Rita Ramos"
-    role: grad
+    role: alum
     image: /img/people/rita.jpeg
-    bio: Ph.D Student
-    bio_note: (co-advised with Bruno Martins)
+    bio: Ph.D 2025.
+    bio_note: Now at Apple
 
 wenyan:
     display_name: "Wenyan Li"
@@ -57,7 +57,7 @@ jonas:
 alice:
     display_name: "Alice Schiavone"
     role: alum
-    bio: Research Assistant
+    bio: Research Assistant.
     bio_note: Now at NRU.
 
 konstantin:
@@ -73,12 +73,14 @@ ingo:
     role: grad
     bio: Ph.D Student
     image: /img/people/ingo.jpg
+    webpage: https://www.linkedin.com/in/ingo-ziegler/
 
 isra:
     display_name: "Israfel Salazar"
     role: grad
     bio: Ph.D Student
     image: /img/people/isra.jpg
+    webpage: https://israfelsr.github.io/
 
 hannah:
     display_name: "Hannah Claus"
@@ -101,6 +103,7 @@ monica:
     bio: Ph.D Student
     bio_note: (co-advised with A. Sophia Koepke)
     image: /img/people/monica.jpg
+    webpage: https://de.linkedin.com/in/monica-riedler
 
 emiel:
     display_name: "Emiel van Miltenburg"
@@ -113,19 +116,19 @@ dai:
     display_name: "Xiang Dai"
     role: alum
     webpage: "https://iang.io/"
-    bio: "Postdoc"
+    bio: "Postdoc."
     bio_note: "Research Scientist at CSIRO Data61"
 
 elham:
     display_name: "Elham Pezhhan"
     role: alum
-    bio: "Visiting Ph.D Student"
+    bio: "Visiting Ph.D Student."
     bio_note: "Data Scientist at Vattenfall"
 
 mitja:
     display_name: "Mitja Nikolaus"
     role: alum
-    bio: "Visiting Student"
+    bio: "Visiting Student."
     bio_note: "Postdoc at Paul Sabatier University"
 
 stella:
