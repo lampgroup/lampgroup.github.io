@@ -9,7 +9,6 @@ people:
   - emanuele
   - rita
   - wenyan
-  - jonas
 
 layout: project
 last-updated: 2025-06-24
