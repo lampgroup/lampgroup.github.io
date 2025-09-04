@@ -1,10 +1,13 @@
-
 desmond:
     display_name: "Desmond Elliott"
     webpage: "https://elliottd.github.io/"
     image: /img/people/desmond.jpeg
     role: faculty
     bio: Associate Professor
+
+maria:
+    display_name: "Maria Vlachou"
+    role: postdoc
 
 nadav:
     display_name: "Nadav Borensetein"
@@ -46,6 +49,12 @@ wenyan:
     image: /img/people/wenyan.jpeg
     bio: Ph.D Student
     bio_note: (co-advised with Anders Søgaard)
+
+nathalie:
+    display_name: "Nathalie Hau Sørensen"
+    role: grad
+    bio: Ph.D Student
+    bio_note: (co-advised with Bolette Pedersen)
 
 jonas:
     display_name: "Jonas F. Lotz"
