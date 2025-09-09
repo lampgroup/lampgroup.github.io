@@ -1,15 +1,16 @@
 ---
 title: Retrieval Augmentation
 
-description: Retrieval augmentation of multimodal models for image captioning.
+description: Retrieval augmented generation in multimodal and text-only settings.
 
 people:
   - desmond
   - rita
   - wenyan
+  - ingo
 
 layout: project
-last-updated: 2023-08-22
+last-updated: 2025-09-09
 status: active
 ---
 
@@ -17,5 +18,5 @@ Retrieval augmentation has proven a useful approach to improving the quality and
 
 <div id="publications" style="font-size: 0.9rem;">
     <h4>Related Publications</h4>
-    {% include mrag.html %}
+    {% include rag.html %}
 </div>

@@ -16,7 +16,7 @@ _includes/pixel.html: bib/pixel.bib bib/publications.tmpl
 	mkdir -p _includes
 	$(BIBBLE) $+ > $@
 
-_includes/mrag.html: bib/mrag.bib bib/publications.tmpl
+_includes/rag.html: bib/rag.bib bib/publications.tmpl
 	mkdir -p _includes
 	$(BIBBLE) $+ > $@
 
@@ -28,7 +28,7 @@ _includes/recent.html: bib/bib.bib bib/recent.tmpl
 	mkdir -p _includes
 	$(BIBBLE) $+ > $@
 
-build: _includes/recent.html _includes/pubs.html _includes/mrag.html _includes/multimodal.html _includes/pixel.html
+build: _includes/recent.html _includes/pubs.html _includes/rag.html _includes/multimodal.html _includes/pixel.html
 	jekyll build
 
 serve: build
@@ -38,4 +38,4 @@ debug: build
 	jekyll serve --verbose --port $(SERVE_PORT) --host $(SERVE_HOST)
 
 clean:
-	$(RM) -r _site _includes/pubs.html _includes/recent.html _includes/mrag.html  _includes/mm.html _includes/pixel.html
+	$(RM) -r _site _includes/pubs.html _includes/recent.html _includes/rag.html  _includes/mm.html _includes/pixel.html
