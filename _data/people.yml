@@ -27,21 +27,6 @@ danae:
     role: postdoc
     image: /img/people/danae.png
 
-emanuele:
-    display_name: "Emanuele Bugliarello"
-    webpage: "https://e-bug.github.io/"
-    role: alum
-    image: /img/people/emanuele.jpeg
-    bio: Ph.D 2023.
-    bio_note: Now Research Scientist at Google
-
-rita:
-    display_name: "Rita Ramos"
-    role: alum
-    image: /img/people/rita.jpeg
-    bio: Ph.D 2025.
-    bio_note: Now at Apple
-
 wenyan:
     display_name: "Wenyan Li"
     webpage: "https://wenyanli.org/"
@@ -55,19 +40,6 @@ nathalie:
     role: grad
     bio: Ph.D Student
     bio_note: (co-advised with Bolette Pedersen)
-
-jonas:
-    display_name: "Jonas F. Lotz"
-    role: grad
-    image: /img/people/jonas.jpeg
-    bio: Ph.D Student
-    bio_note: (co-advised with Christian Igel)
-
-alice:
-    display_name: "Alice Schiavone"
-    role: alum
-    bio: Research Assistant.
-    bio_note: Now at NRU.
 
 konstantin:
     display_name: "Konstantin Dobler"
@@ -114,31 +86,7 @@ monica:
     image: /img/people/monica.jpg
     webpage: https://de.linkedin.com/in/monica-riedler
 
-emiel:
-    display_name: "Emiel van Miltenburg"
-    role: alum
-    webpage: "https://www.emielvanmiltenburg.nl/"
-    bio: "PhD 2018."
-    bio_note: "Now at Tilburg University."
-
-dai:
-    display_name: "Xiang Dai"
-    role: alum
-    webpage: "https://iang.io/"
-    bio: "Postdoc."
-    bio_note: "Research Scientist at CSIRO Data61"
-
-elham:
-    display_name: "Elham Pezhhan"
-    role: alum
-    bio: "Visiting Ph.D Student."
-    bio_note: "Data Scientist at Vattenfall"
-
-mitja:
-    display_name: "Mitja Nikolaus"
-    role: alum
-    bio: "Visiting Student."
-    bio_note: "Postdoc at Paul Sabatier University"
+## COLLABORATORS
 
 stella:
     display_name: "Stella Frank"
@@ -157,3 +105,59 @@ coastal:
     role: collab
     bio: "University of Copenhagen"
     webpage: "https://coastalcph.github.io/"
+
+## ALUM
+
+jonas:
+    display_name: "Jonas F. Lotz"
+    role: alum
+    image: /img/people/jonas.jpeg
+    bio: Ph.D 2025.
+    bio_note: Now at DSV
+
+rita:
+    display_name: "Rita Ramos"
+    role: alum
+    image: /img/people/rita.jpeg
+    bio: Ph.D 2025.
+    bio_note: Now at Apple
+
+alice:
+    display_name: "Alice Schiavone"
+    role: alum
+    bio: Research Assistant.
+    bio_note: Now at NRU.
+
+emanuele:
+    display_name: "Emanuele Bugliarello"
+    webpage: "https://e-bug.github.io/"
+    role: alum
+    image: /img/people/emanuele.jpeg
+    bio: Ph.D 2023.
+    bio_note: Now at Google
+
+dai:
+    display_name: "Xiang Dai"
+    role: alum
+    webpage: "https://iang.io/"
+    bio: "Postdoc."
+    bio_note: "Research Scientist at CSIRO Data61"
+
+elham:
+    display_name: "Elham Pezhhan"
+    role: alum
+    bio: "Visiting Ph.D Student."
+    bio_note: "Data Scientist at Vattenfall"
+
+emiel:
+    display_name: "Emiel van Miltenburg"
+    role: alum
+    webpage: "https://www.emielvanmiltenburg.nl/"
+    bio: "PhD 2018."
+    bio_note: "Now at Tilburg University."
+
+mitja:
+    display_name: "Mitja Nikolaus"
+    role: alum
+    bio: "Visiting Student."
+    bio_note: "Postdoc at Paul Sabatier University"
