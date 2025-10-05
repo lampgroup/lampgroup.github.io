@@ -27,14 +27,6 @@ danae:
     role: postdoc
     image: /img/people/danae.png
 
-wenyan:
-    display_name: "Wenyan Li"
-    webpage: "https://wenyanli.org/"
-    role: grad
-    image: /img/people/wenyan.jpeg
-    bio: Ph.D Student
-    bio_note: (co-advised with Anders Søgaard)
-
 nathalie:
     display_name: "Nathalie Hau Sørensen"
     role: grad
@@ -107,6 +99,13 @@ coastal:
     webpage: "https://coastalcph.github.io/"
 
 ## ALUM
+
+wenyan:
+    display_name: "Wenyan Li"
+    webpage: "https://wenyanli.org/"
+    role: alum
+    image: /img/people/wenyan.jpeg
+    bio: Ph.D 2025
 
 jonas:
     display_name: "Jonas F. Lotz"
