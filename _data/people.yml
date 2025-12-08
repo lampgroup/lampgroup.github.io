@@ -5,6 +5,11 @@ desmond:
     role: faculty
     bio: Associate Professor
 
+mike:
+    display_name: "Mike Zhang"
+    role: postdoc
+    webpage: "https://jjzha.github.io/"
+
 maria:
     display_name: "Maria Vlachou"
     role: postdoc
