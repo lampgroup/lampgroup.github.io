@@ -83,6 +83,24 @@ monica:
     image: /img/people/monica.jpg
     webpage: https://de.linkedin.com/in/monica-riedler
 
+phd1:
+    display_name: "PhD Student"
+    role: grad
+    bio: Ph.D Student
+    bio_note: Hiring in 2026
+
+phd2:
+    display_name: "PhD Student"
+    role: grad
+    bio: Ph.D Student
+    bio_note: Hiring in 2027
+
+phd3:
+    display_name: "PhD Student"
+    role: grad
+    bio: Ph.D Student
+    bio_note: Hiring in 2028
+
 ## COLLABORATORS
 
 stella:
