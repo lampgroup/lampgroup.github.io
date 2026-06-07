@@ -5,6 +5,8 @@ desmond:
     role: faculty
     bio: Associate Professor
 
+# Postdocs
+
 mike:
     display_name: "Mike Zhang"
     role: postdoc
@@ -31,6 +33,14 @@ danae:
     webpage: "https://danaesavi.github.io/"
     role: postdoc
     image: /img/people/danae.png
+
+# Ph.D Students
+
+naveen:
+    display_name: Naveen Vakada
+    role: grad
+    bio: Ph.D Student
+    bio_note: (co-advised with Shaoxiong Ji)
 
 nathalie:
     display_name: "Nathalie Hau Sørensen"
@@ -74,14 +84,7 @@ onur:
     bio: Ph.D Student
     bio_note: (co-advised with Dimitrios Papadopoulos)
     image: /img/people/onur.jpg
-
-monica:
-    display_name: "Monica Riedler"
-    role: grad
-    bio: Ph.D Student
-    bio_note: (co-advised with A. Sophia Koepke)
-    image: /img/people/monica.jpg
-    webpage: https://de.linkedin.com/in/monica-riedler
+    webpage: https://monurcan.github.io/
 
 phd1:
     display_name: "PhD Student"
@@ -122,6 +125,13 @@ coastal:
     webpage: "https://coastalcph.github.io/"
 
 ## ALUM
+
+monica:
+    display_name: "Monica Riedler"
+    role: alum
+    image: /img/people/monica.jpg
+    webpage: https://de.linkedin.com/in/monica-riedler
+
 
 wenyan:
     display_name: "Wenyan Li"

@@ -41,8 +41,8 @@ navigation:
     link: /
   - title: News
     link: /blog.html
-  - title: Projects
-    link: /research.html
+  - title: Themes
+    link: /themes.html
   - title: Publications
     link: /publications.html
   - title: People
