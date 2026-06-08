@@ -11,6 +11,7 @@ people:
   - wenyan
   - danae
   - ingo
+  - isra
 
 layout: project
 last-updated: 2025-11-11
