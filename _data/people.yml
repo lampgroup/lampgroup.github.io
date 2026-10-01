@@ -16,25 +16,12 @@ maria:
     display_name: "Maria Vlachou"
     role: postdoc
 
-nadav:
-    display_name: "Nadav Borensetein"
-    webpage: "https://nadav.dk/"
-    role: postdoc
-    image: /img/people/nadav.jpeg
-
-ilker:
-    display_name: "Ilker Kessen"
-    webpage: "https://ilkerkesen.github.io/"
-    role: postdoc
-    image: /img/people/ilker.jpg
-
-danae:
-    display_name: "Danae Sanchez Villegas"
-    webpage: "https://danaesavi.github.io/"
-    role: postdoc
-    image: /img/people/danae.png
-
 # Ph.D Students
+
+mariia:
+    display_name: Mariaa Everstova
+    role: grad
+    bio: Ph.D Student
 
 naveen:
     display_name: Naveen Vakada
@@ -86,12 +73,6 @@ onur:
     image: /img/people/onur.jpg
     webpage: https://monurcan.github.io/
 
-phd1:
-    display_name: "PhD Student"
-    role: grad
-    bio: Ph.D Student
-    bio_note: Hiring in 2026
-
 phd2:
     display_name: "PhD Student"
     role: grad
@@ -126,12 +107,31 @@ coastal:
 
 ## ALUM
 
-monica:
-    display_name: "Monica Riedler"
+ignacio:
+    display_name: "Ignacio de Rodrigo"
     role: alum
-    image: /img/people/monica.jpg
-    webpage: https://de.linkedin.com/in/monica-riedler
+    bio: Visiting Ph.D Student
 
+nadav:
+    display_name: "Nadav Borensetein"
+    webpage: "https://nadav.dk/"
+    role: alum
+    image: /img/people/nadav.jpeg
+    bio: Postdoc. Next at Apple
+
+ilker:
+    display_name: "Ilker Kessen"
+    webpage: "https://ilkerkesen.github.io/"
+    role: alum
+    image: /img/people/ilker.jpg
+    bio: Postdoc. Next at Humboldt Universität
+
+danae:
+    display_name: "Danae Sanchez Villegas"
+    webpage: "https://danaesavi.github.io/"
+    role: alum
+    image: /img/people/danae.png
+    bio: Postdoc. Next at CAISA
 
 wenyan:
     display_name: "Wenyan Li"
@@ -145,20 +145,21 @@ jonas:
     role: alum
     image: /img/people/jonas.jpeg
     bio: Ph.D 2025.
-    bio_note: Now at DSV
+    bio_note: Next at DSV
 
 rita:
     display_name: "Rita Ramos"
     role: alum
     image: /img/people/rita.jpeg
     bio: Ph.D 2025.
-    bio_note: Now at Apple
+    bio_note: Next at Apple
 
 alice:
     display_name: "Alice Schiavone"
+    webpage: "https://aliswh.github.io/"
     role: alum
     bio: Research Assistant.
-    bio_note: Now at NRU.
+    bio_note: Next at NRU.
 
 emanuele:
     display_name: "Emanuele Bugliarello"
@@ -166,30 +167,30 @@ emanuele:
     role: alum
     image: /img/people/emanuele.jpeg
     bio: Ph.D 2023.
-    bio_note: Now at Google
+    bio_note: Next at Google
 
 dai:
     display_name: "Xiang Dai"
     role: alum
     webpage: "https://iang.io/"
     bio: "Postdoc."
-    bio_note: "Research Scientist at CSIRO Data61"
+    bio_note: "Next at CSIRO Data61"
 
 elham:
     display_name: "Elham Pezhhan"
     role: alum
     bio: "Visiting Ph.D Student."
-    bio_note: "Data Scientist at Vattenfall"
+    bio_note: "Next at Vattenfall"
 
 emiel:
     display_name: "Emiel van Miltenburg"
     role: alum
     webpage: "https://www.emielvanmiltenburg.nl/"
     bio: "PhD 2018."
-    bio_note: "Now at Tilburg University."
+    bio_note: "Next at Tilburg University."
 
 mitja:
     display_name: "Mitja Nikolaus"
     role: alum
     bio: "Visiting Student."
-    bio_note: "Postdoc at Paul Sabatier University"
+    bio_note: "Next at Aix-Marseille University"
